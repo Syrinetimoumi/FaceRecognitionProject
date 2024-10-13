@@ -1,0 +1,16 @@
+#import os
+
+#if not os.path.exists(dataSetPath):
+  #  print(f"Error: The directory {dataSetPath} does not exist.")
+#else:
+    #faces, ids = getImagesAndLabels(dataSetPath)
+
+
+
+import os
+
+dataSet_path = "C:\Users\PC\Desktop\FaceRecognition\dataSet"
+
+if not os.path.exists(dataSet_path):
+    os.makedirs(dataSet_path)
+
